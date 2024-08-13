@@ -618,3 +618,13 @@
   background: #53238F !important;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  max-width: 300px;
+}

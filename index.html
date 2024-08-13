@@ -3,14 +3,29 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bookmark of the day</title>
+  <title>Bookmark of the Day - Revisit Your Bookmarks Like a Pro</title>
+  <meta name="description" content="Bookmark of the Day helps you revisit and manage your bookmarks efficiently. Available for Chrome and Firefox browsers." />
+  <meta name="keywords" content="bookmark manager, chrome extension, firefox add-on, productivity tool" />
+  <link rel="canonical" href="https://bookmarkoftheday.sandeepk.dev/" />
+  <meta property="og:title" content="Bookmark of the Day - Revisit Your Bookmarks Like a Pro" />
+  <meta property="og:description" content="Efficiently manage and revisit your bookmarks with Bookmark of the Day. Available for Chrome and Firefox." />
+  <meta property="og:image" content="https://bookmarkoftheday.sandeepk.dev/og-image.jpg" />
+  <meta property="og:url" content="https://bookmarkoftheday.sandeepk.dev/" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="style.css" />
-  <script src="./custom.js"></script>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="./custom.js" defer></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4QVZ0ZKM78');
+  </script>
 </head>
 
 <body>
@@ -27,17 +42,25 @@
     </div>
     <div class="sc-papXJ yBsKs">
       <div class="sc-jqUVSM bA-da-dW">
-        <div class="sc-iqcoie fZcXHS"><img src="logo.png" alt="logo" /></div>
+        <div class="sc-iqcoie fZcXHS"><img src="logo.png" alt="Bookmark of the Day logo" /></div>
         <div class="sc-crXcEl kUVXgh">
           Revisit your<br />Bookmarks like pro!
         </div>
-        <a type="button" class="btn btn-info sc-evZas csRDwh" style="text-decoration: none;"
-          href="https://chrome.google.com/webstore/detail/bookmarkoftheday/jldlnlkjghmljkcbdebeebbafjgdmllc"
-          target="_blank">Get it on
-          Chrome Webstore</a>
+        <div class="button-container">
+          <a type="button" class="btn btn-info sc-evZas csRDwh" style="text-decoration: none;"
+            href="https://chrome.google.com/webstore/detail/bookmarkoftheday/jldlnlkjghmljkcbdebeebbafjgdmllc"
+            target="_blank" onclick="gtag('event', 'click', {'event_category': 'Extension', 'event_label': 'Chrome'});">
+            Get it on Chrome Webstore
+          </a>
+          <a type="button" class="btn btn-info sc-evZas csRDwh" style="text-decoration: none;"
+            href="https://addons.mozilla.org/en-US/firefox/addon/bookmarkoftheday/"
+            target="_blank" onclick="gtag('event', 'click', {'event_category': 'Extension', 'event_label': 'Firefox'});">
+            Get it on Firefox Add-ons
+          </a>
+        </div>
       </div>
       <div class="sc-kDDrLX kKGFiC">
-        <img src="landing_image.png" alt="landing_image" />
+        <img src="landing_image.png" alt="Bookmark of the Day landing image" />
       </div>
     </div>
   </div>
