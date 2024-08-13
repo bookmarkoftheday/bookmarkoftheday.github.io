@@ -628,3 +628,29 @@
   flex: 1;
   max-width: 300px;
 }
+
+footer {
+  color: white;
+  text-align: right;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-content {
+  margin-right: 20px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
